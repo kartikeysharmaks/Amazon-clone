@@ -1,0 +1,55 @@
+.success {
+    display: flex;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 40vh;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checbox-message {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.checbox-message img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.thanks-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.goto-order {
+    background-color: #f0c14b;
+    margin-top: 5px;
+    color: #111;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    width: 60%;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.goto-order:hover {
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
