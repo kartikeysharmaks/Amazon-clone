@@ -60,7 +60,7 @@ const Header = () => {
       </div>{" "}
       <div className="search-input-bar">
         <input type="text" placeholder="" className="input-box" />
-        <SearchIcon className="search-icon" />
+         <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="search" className="search-icon" />
       </div>{" "}
       <div className="Navbar">
         <div className="navbar-item">
@@ -92,7 +92,7 @@ const Header = () => {
       </div>{" "}
       <div className="header-wishlist">
         <Link to="/checkout">
-          <ShoppingBasketIcon className="basket-icon" onClick={handleSubmit}/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShmtIlk8qJFYpNGY34N3lYlgyML2fsxWa4eAKD6Y1ehH4LWbAVv-4f10eLB7-EG6VnOR8&usqp=CAU" alt="" className="basket-icon" onClick={handleSubmit}/>
         </Link>{" "}
         <span className="items-in-basket"> {basket?.length} </span>{" "}
       </div>{" "}
