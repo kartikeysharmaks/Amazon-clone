@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.css";
-import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { useStateValue } from "./StateProvider";
 import { Link, useNavigate } from "react-router-dom";
 import { logout, auth, db } from "./firebase";
